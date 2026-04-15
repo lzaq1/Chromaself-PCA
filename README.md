@@ -1,20 +1,63 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+<img width="1200" height="475" alt="PCA Analysis Banner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+
+# 📊 PCA Analysis Tool
+**Dimensionality Reduction made simple with Interactive AI Insights.**
+
+[![Built with AI Studio](https://img.shields.io/badge/Built__with-AI__Studio-blue?style=for-the-badge)](https://ai.studio/)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+
 </div>
 
-# Run and deploy your AI Studio app
+## 🧬 Overview
 
-This contains everything you need to run your app locally.
+**PCA Analysis Tool** adalah aplikasi web interaktif yang dirancang untuk membantu Machine Learning Engineer dan Data Scientist melakukan *Principal Component Analysis* (PCA) dengan mudah. Aplikasi ini tidak hanya menghitung reduksi dimensi, tetapi juga menggunakan integrasi Gemini AI untuk memberikan interpretasi otomatis terhadap fitur-fitur yang paling berpengaruh (Principal Components).
 
-View your app in AI Studio: https://ai.studio/apps/edd56ccd-3713-45d2-a9b9-adcf80bb85bc
+### Key Features:
+- **Instant PCA Calculation:** Unggah dataset Anda dan lihat visualisasi varians secara real-time.
+- **Interactive Visualizations:** Scatter plots dan scree plots yang responsif untuk memahami struktur data.
+- **AI-Powered Insights:** Penjelasan otomatis mengenai korelasi antar fitur menggunakan Large Language Models.
+- **Data Preprocessing:** Dilengkapi dengan fitur standarisasi data otomatis sebelum proses PCA dilakukan.
 
-## Run Locally
+## 🛠️ Tech Stack
 
-**Prerequisites:**  Node.js
+- **Frontend:** React.js dengan Tailwind CSS untuk UI yang modern.
+- **Data Processing:** Integrasi algoritma matematika untuk analisis komponen utama.
+- **AI Engine:** Gemini API (Google AI Studio) untuk analisis konteks data.
 
+## 💻 Cara Menjalankan Proyek
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Pastikan Anda telah menginstal **Node.js** di perangkat Anda sebelum memulai.
+
+### Langkah-langkah Instalasi:
+
+1.  **Clone Repositori:**
+    ```bash
+    git clone [https://github.com/username/pca-analysis-web.git](https://github.com/username/pca-analysis-web.git)
+    cd pca-analysis-web
+    ```
+
+2.  **Instal Dependensi:**
+    ```bash
+    npm install
+    ```
+
+3.  **Konfigurasi API Key:**
+    Buat file `.env.local` di direktori utama dan tambahkan API Key Gemini Anda:
+    ```env
+    GEMINI_API_KEY=masukkan_api_key_anda_di_sini
+    ```
+
+4.  **Jalankan Aplikasi:**
+    ```bash
+    npm run dev
+    ```
+
+## 🌐 Akses melalui AI Studio
+
+Anda juga dapat mencoba dan mengembangkan logika AI aplikasi ini langsung melalui Google AI Studio:
+[Buka Project di AI Studio](https://ai.studio/apps/edd56ccd-3713-45d2-a9b9-adcf80bb85bc)
+
+---
+<p align="center">Built with 💻 and ☕ by YourName</p>
