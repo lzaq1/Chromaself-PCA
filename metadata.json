@@ -1,0 +1,5 @@
+{
+  "name": "ChromaSelf - AI Personality Color Analysis",
+  "description": "Discover your unique personality color and perfect clothing palette based on your skin tone using AI-powered biometric analysis.",
+  "requestFramePermissions": ["camera"]
+}
