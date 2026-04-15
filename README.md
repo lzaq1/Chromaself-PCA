@@ -1,7 +1,6 @@
 # 📊 PCA Analysis Tool
 **Dimensionality Reduction made simple with Interactive AI Insights.**
 
-[![Built with AI Studio](https://img.shields.io/badge/Built__with-AI__Studio-blue?style=for-the-badge)](https://ai.studio/)
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
